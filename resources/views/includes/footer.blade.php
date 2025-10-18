@@ -6,7 +6,7 @@
                     @if(!empty(config('setting')) && isset(config('setting')['software_logo_white']) && !is_array(config('setting')['software_logo_white']))
                         <img src="{{ asset('storage/'.config('setting')['software_logo_white']) }}" alt="" class="footer-logo" width="">
                     @endif
-                    <img src="{{ asset('/assets/images/+18.png') }}" alt="" width="38">
+                    <img src="{{ asset('/assets/images/18plus.png') }}" alt="" width="38">
                 </div>
                 <p class="{{ url('/sobre-nos') }}">
                     <strong>{{ config('setting')['software_name'] }}</strong> é uma comunidade dedicada a oferecer a melhor experiência aos jogadores.
