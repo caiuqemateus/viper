@@ -1,4 +1,5 @@
 {
   "name": "viper",
-  "srcDir": "public"
+  "srcDir": "public",
+  "platformVersion": "2025.2"
 }
